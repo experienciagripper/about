@@ -24,7 +24,7 @@ function appearText() {
 }
 function appearMore() {
     let btn = document.createElement("button");
-    btn.innerHTML = "--more-->";
+    btn.innerHTML = "--más-->";
     btn.className = "btn btn-white";
     btn.type = "submit";
     btn.id = "mobileArrowButton";
@@ -50,7 +50,7 @@ function addMultipleEventListener(element, events, handler) {
 }
 addMultipleEventListener(arrowButton, ['click','touchend'], scroll)
 
-langState = "english"
+langState = "spanish"
 
 function setLang(lang) {
     langState = lang;

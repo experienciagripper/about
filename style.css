@@ -10,15 +10,24 @@ body {
 }
 h1{
     margin-left:50%;
+    color:black;
     font-size: calc(((1vh+1vw)/2)*20);
+    color: #eb1dfd;
+    font-family: 'Bodoni Moda', serif;
+    z-index:1000000;
+    position:sticky;
+}
+#gripper {
+    font-family: 'Bodoni Moda', serif;
 
-    font-family: 'Almarai', sans-serif;
+
 }
 #shortDescription {
 
     font-family: 'Slabo 27px', serif;
-    margin-left:10%;
+    margin-left:2.5%;
     font-size: calc(((1vh+1vw)/2)*4);
+font-family: 'Roboto Mono', monospace;
 
 
 }
@@ -122,21 +131,31 @@ filter:invert();
 cursor:pointer;
 z-index:999999;
 }
+#banda{
+    position:fixed;
+    top:0%;
+    z-index:0;
+}
+#ball,#circles{
+    z-index:1;
+    position:sticky;
 
+}
 @media (min-width: 600px){ --desktop
 
-        #twirl {
+        #banda {
         position:fixed;
-        width: 200%;
-        height: 200%;
-        top:10%;
-        left:-50%;
+        width: 100%;
+        height: auto;
+        top:0px;
         display:initial;
         }
     #circles {
         position:fixed;
-        top:30%;
-        right:-30%;
+        top:7%;
+        right:10%;
+        width:20% !important;
+        height:auto;
         }
         #shortDescription {
         position:fixed;
@@ -151,7 +170,7 @@ z-index:999999;
         position:fixed;
         width:30%;
         height:auto;
-        top:10%;
+        top:0%;
         left:5%;
 
     }
@@ -169,12 +188,10 @@ z-index:999999;
     #circles{
         position:fixed;
         top:10%;
-        left:-30%;
-        width:120%;
-        height:120%;
+        left:30%;
     }
 
-        #twirl {
+        #banda {
 
         transform: rotate(90deg);
         width:200%;
