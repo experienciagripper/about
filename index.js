@@ -4,8 +4,8 @@
 //
 let arrowButton = document.getElementById("arrow")
 let circles = document.getElementById("circles")
-let ball = document.getElementById("ball")
-let twirl = document.getElementById("twirl");
+let ball = document.getElementById("marian")
+let twirl = document.getElementById("banda");
 let description = document.getElementById("shortDescription");
 let moreButton = document.getElementById("mas")
 console.log(arrowButton)
