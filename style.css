@@ -136,7 +136,7 @@ z-index:999999;
     top:0%;
     z-index:0;
 }
-#ball,#circles{
+#marian,#circles{
     z-index:1;
     position:sticky;
 
@@ -165,7 +165,7 @@ z-index:999999;
               white-space:wrap;
         }
     #arrow {display:none;}
-    #ball {
+    #marian {
 
         position:fixed;
         width:30%;
@@ -187,8 +187,15 @@ z-index:999999;
     }
     #circles{
         position:fixed;
-        top:10%;
-        left:30%;
+        width:30%;
+        bottom:-30%;
+        right:10%;
+    }
+    #marian{
+        position:fixed;
+        width:30%;
+        bottom:-20%;
+        right:10%;
     }
 
         #banda {
@@ -198,12 +205,13 @@ z-index:999999;
         height:200%;
 
         position:fixed;
-        top:-60%;
-        right:-30%;
+        top:-50%;
+        right:-50%;
         filter:drop-shadow(12px 12px 25px rgba(255,255,255,.4));
         }
         h1{
-            margin-left:5%;
+            margin-left:25%;
+            margin-top:15%;
             font-size: calc(((1vh+1vw)/2)*15);
 
         }
